@@ -1,0 +1,191 @@
+.nav{
+    height: 90px;
+    width: 100%;
+    display: flex;
+    float: left; 
+    position: sticky;
+    top: 0;
+    background-color: white;
+   }
+.nav-l{
+    width: 40%;
+    padding-top: 30px;
+    padding-left: 15%;
+    padding-bottom: 5px;
+}
+.nav-r{
+    width: 900px;
+    padding-right: 15%;
+    padding-top: 9px;
+    padding-left: 120px;  
+}
+.bar{
+    width: 20px;
+    height: 3px;
+    background-color: black;
+    margin: 4px 0;
+}
+ ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    
+}
+a{
+    color: rgb(122,122,122);
+    text-decoration: none;
+    font-size: 19px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a:hover{
+    color: rgb(56,126,209);
+}
+hr{
+   width: 100%;
+   border:  0.1px solid rgb(243,243,243);
+}
+.one{
+    text-align: center;
+   height: 550px;
+}
+.web{
+    color: rgb(66,66,66);
+    font-size: 300%;
+}
+.webpara{
+    color: rgb(66, 66,66);
+    font-size: 20px; 
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.btn{
+    background-color: rgb(56,126,209);
+    border-radius: 4px;
+    color: white;
+    font-size:120%;
+    font-weight: bold;
+    padding: 10px;
+    width: 150px;
+    border: none;
+}
+.spans{
+    color: rgb(56,126,209);
+}
+.spans:hover{
+    color:black;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: black;
+    cursor: pointer;
+    color: white;
+}
+.two{
+    
+    position: static;
+    height: fit-content;
+    display: flex;
+}
+.two-1{
+    
+    width: 50%;
+    text-align: center;
+    padding-top: 70px;
+}
+.two-2{
+    
+    margin-left: 10px;
+    width: 50%;
+}
+ul li{
+    font-family: serif;
+    font-weight: 400;
+    font-size: 19px;
+    
+}
+.three{
+    height:fit-content;
+    text-align: center;
+    padding-top: 40px;
+}
+.four{
+    /* border: 2px solid blue; */
+    height: fit-content;
+    float: left;
+    display: flex;
+    width: auto;
+    
+}
+.four-1{
+    height: auto;
+    width: 50%;
+    margin-left: 140px;
+    margin-top: 100px;
+}
+.four-2{
+    height: 100%;
+    margin-left: 80px;
+    margin-top: 100px;
+    display: flex;
+    float: left;
+    width: auto;
+}
+.four-2-1{
+    border: 1px solid rgb(204,204,204);
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.four-2-2{
+    border: 1px solid rgb(204,204,204);
+    padding-left: 60px;
+    padding-right: 80px;
+}
+.dash{
+    border: 1px solid white;
+    margin-top: 310px;
+}
+.five{
+    display: flex;
+    float: left;
+    width: 100%;
+}
+.five-1{
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.six{
+    text-align: center;
+    margin-top: 400px;
+} 
+.foot{
+    display: flex;
+    float: left;
+    width: 95%;
+    padding-left: 80px;
+    background-color: rgb(250,250,251);
+    margin-left: 7%;
+}
+.last{
+    justify-content: space-evenly; 
+    display: flex;
+    float: left;
+    flex-direction: column;
+    margin-left: 90px;
+}
+.lastPara {
+    background-color: rgb(250,250,251);
+    margin-left: 10%;;
+    font-size: 16px;
+
+}
+.para {
+    font-size: 0.65rem;
+    color: #9b9b9b;
+    margin-top: 35px;
+    width: 90%;
+}
+.lastRow{
+    background-color: rgb(250,250,251);
+    margin-bottom: 20px;
+    text-align: center;
+}
+    
